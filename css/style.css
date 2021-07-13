@@ -1,0 +1,107 @@
+*{
+box-sizing:border-box ;
+}
+
+body{
+    background-color: rgb(214, 210, 210);
+    
+    padding: 10px;
+}
+
+header h1{
+    text-align: center;
+}
+
+
+nav{
+    background-color: rgb(117, 117, 117);
+    /* width: 50%; */
+    text-align: center;
+
+  }
+
+
+header nav li{
+    display: inline-block;
+    padding: 10px;
+    margin: 30px;
+
+    
+}
+header nav li a {
+    text-decoration: none;
+}
+header nav li:first-child{
+   background-color: black;
+}
+#bigimg{
+ margin: 30px;
+ text-align: center;
+
+
+}
+#groubimg{
+    margin-bottom: 30px;
+margin-left: 263px;
+}
+ .imgsec2{
+     margin-right: 30px;
+
+ }
+
+
+ #thalastsec{
+
+    /* border:2px solid rebeccapurple; */
+ }
+
+#leftaretcle{
+    float: left;
+    /* width: 50%; */
+    margin-left: 260px;
+    padding: inherit;
+
+    
+}
+
+#rightarticle{
+
+    float: right;
+    /* clear: none; */
+    width: 25%;
+
+  padding-left: 50px;
+margin-right: 375px;
+margin-bottom: 0px;
+margin-top: 0px;
+
+}
+div{
+    clear: both;
+}
+
+
+#rightarticle p{
+    width: 300px;
+    height: 350px;
+    overflow:  scroll ;
+text-align: justify;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; } /* form codegrepper*/
+
+#thehover:hover   {background: rgb(223, 20, 20);}
+#thehover{
+    background-color:rgb(56, 53, 53) ;
+    width: 150px;
+    text-align: center;
+}
+
+
+footer{
+    margin: 30px;
+    background-size: auto;
+    height: 50px;
+    background-color: rgb(117, 117, 117);
+}
